@@ -1,0 +1,27 @@
+.perfil {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+
+.perfil img {
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 200px;
+    width: 150px;
+}
+.perfil .info h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.perfil .info p {
+    margin: 5px 0 0;
+    color: gray;
+}
